@@ -1,3 +1,7 @@
 #!/bin/bash
 
-mysql -hrm-2zeov3zk342hf5i12rw.mysql.rds.aliyuncs.com -uliutao -c -pliutao123!
+hostname='rr-2zetpvab55c2ck9o7.mysql.rds.aliyuncs.com'
+user=liutao
+passwd=liutao123
+
+mysql -h$hostname -u$user -p$passwd -c
